@@ -1,6 +1,6 @@
 '''
 Criado em Sáb, 12 de setembro 19:56 2020
-@autora: Deise
+@autores: Dantas e Deise
 '''
 # ----------------------------------------------------
 # Fonte da ideia para melhoria
