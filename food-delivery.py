@@ -1,3 +1,12 @@
+'''
+Criado em Sáb, 12 de setembro 19:56 2020
+@autora: Deise
+'''
+# ----------------------------------------------------
+# Fonte da ideia para melhoria
+# https://github.com/sumitskj/food-delivery-chatbot
+# ----------------------------------------------------
+
 import json
 import datetime
 import time
