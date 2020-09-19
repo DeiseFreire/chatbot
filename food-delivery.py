@@ -21,7 +21,7 @@ logger = logging.getLogger()
 logger.setLevel( logging.DEBUG )
 
 
-# --- Helper fuctions from aws lex documentation ---
+# --- Funções auxiliares da documentação do aws lex ---
 
 
 def elicit_slot(session_attributes, intent_name, slots, slot_to_elicit, message, response_card):
@@ -95,7 +95,7 @@ def build_response_card(title, options):
     }
 
 
-# --- My functions ---
+# --- Minhas funções ---
 
 
 def safe_int(n):
@@ -476,7 +476,7 @@ def order_beverages(intent_request):
         session_attributes['currentReservationPrice'] = price
 
     if intent_request['invocationSource'] == 'DialogCodeHook':
-        # Validate any slots which have been specified.  If any are invalid, re-elicit for their value
+        # Valide todos os slots que foram especificados. Se algum for inválido, solicite novamente o valor
         validation_result = validate_beverage( intent_request['currentIntent']['slots'] )
         if not validation_result['isValid']:
             slots[validation_result['violatedSlot']] = None
