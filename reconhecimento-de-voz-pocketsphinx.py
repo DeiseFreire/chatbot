@@ -8,7 +8,7 @@
 # importando os módulos do chatbot
 from chatterbot.trainers import ListTrainer
 from chatterbot import ChatBot
-“””
+"""
 import os
 import speech_recognition as sr
 import pyttsx3
@@ -67,6 +67,6 @@ response=bot.get_response(speech)
 print('Bot: ', response)
 speak(response)
 except:
-“””
+"""
 
 
