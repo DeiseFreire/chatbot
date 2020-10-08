@@ -1,6 +1,6 @@
 # chatbots
 
-O texto é da minha experiência vendo chatbots em ação e vendo quais são as características dos chatbots que mais deram certo e vem entregando resultados foi feita uma coleta das características dos ChatBots. Construí então uma ordenação fiz um agrupamento dos principais fundamentos de um ChatBot por etapas do desenvolvimento do chatbot para poder escrever. Vou está escrevendo sobre esse agrupamento que basicamente são os três pilares, que são: planejamento, desenvolvimento e manutenção.
+O texto é da minha experiência vendo ChatBots em ação e vendo quais são as características dos chatbots que mais deram certo e vem entregando resultados foi feita uma coleta das características dos ChatBots. Construí então uma ordenação fiz um agrupamento dos principais fundamentos de um ChatBot por etapas do desenvolvimento do chatbot para poder escrever. Vou está escrevendo sobre esse agrupamento que basicamente são os três pilares, que são: planejamento, desenvolvimento e manutenção.
 
 Escrevendo brevemente sobre eles. O pilar de planejamento, por exemplo, ele é muito importante para o ChatBot porque ele sustenta o ChatBot de forma que as tarefas traga solidez e um processo de criação de desenvolvimento bem sólido e bem contínuo. Fazendo as etapas corretamente a gente tenta trazer para o ChatBot um desenvolvimento sem retrabalhos a ponto de descobrir, por exemplo, se tenho uma ideia errada de qual que é o problema do cliente, essa é uma questão que é muito custosa para quando se está desenvolvendo.
 
