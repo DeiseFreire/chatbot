@@ -14,7 +14,7 @@ else: # outro
 print('Muito prazer '+nome)
 >>> while 2==2:
 ... print(' ')
-Traceback (most recent call last): # Traceback (última chamada mais recente):
+Traceback (most recent call last): # Rastrear de volta (última chamada mais recente):
 File "<stdin>", line 2, i # Arquivo "<stdin>", linha 2, i
 n <module> # módulo
 keyboardInterrupt # interrupção do teclado
