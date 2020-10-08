@@ -22,3 +22,6 @@ keyboardInterrupt # interrupção do teclado
 >>> while n < 3: # enquanto
 ... print(n)  # impressão     
 ... n = n + 1 
+1
+2
+>>>
