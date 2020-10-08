@@ -1,4 +1,4 @@
-# chatbots
+# ChatBots
 
 O texto é da minha experiência vendo ChatBots em ação e vendo quais são as características dos chatbots que mais deram certo e vem entregando resultados foi feita uma coleta das características dos ChatBots. Construí então uma ordenação fiz um agrupamento dos principais fundamentos de um ChatBot por etapas do desenvolvimento do chatbot para poder escrever. Vou está escrevendo sobre esse agrupamento que basicamente são os três pilares, que são: planejamento, desenvolvimento e manutenção.
 
@@ -24,5 +24,5 @@ Você quer que o ChatBot ele tenha esse intuito é um ChatBot para auxiliar o cl
 
 Qual que você vai escolher ou qual o posicionamento que você tem em mente para que o ChatBot preencha. É muito importante que você tenha definido qual que é o posicionamento para que você consiga executar as próximas, as outras tarefas da criação do ChatBot bem executadas. Quando a gente está falando de um ChatBot é a mesma coisa de você está treinando um atendente. Você precisa determinar para ele quais são as tarefas que ele vai executar. 
 
-E quando a gente determina as tarefas a gente determina como se fosse uma especialidade. Essa especialidade faz com que aquele atendente que vai atender o cliente ele seja o melhor que ele puder naquela especialidade, por exemplo, se você quer construir um ChatBot institucional para falar sobre uma empresa e entregar as informações da melhor forma possível da empresa para o cliente você não vai pegar e misturar isso com, por exemplo, o delivery entendeu....           
+E quando a gente determina as tarefas a gente determina como se fosse uma especialidade. Essa especialidade faz com que aquele atendente que vai atender o cliente ele seja o melhor que ele puder naquela especialidade, por exemplo, se você quer construir um ChatBot institucional para falar sobre uma empresa e entregar as informações da melhor forma possível da empresa para o cliente você não vai pegar e misturar isso com, por exemplo, o delivery            
 
