@@ -12,16 +12,22 @@ if nome=='Raimundo': # e se ou se
 print(Eaew '+nome) # impressão
 else: # outro
 print('Muito prazer '+nome)
->>> while 2==2: # enquanto
-... print(' ') # impressão
+# >>> while 2==2: # enquanto
+# ... print(' ') # impressão
+while True: # enquanto for verdade
+resposta = input ('>: ') # entrada
+if resposta == 'tchau': # e se ou se
+break # parar a execução 
+else: # outro
+print('Digite outra coisa') # impressão  
 Traceback (most recent call last): # Rastrear de volta (última chamada mais recente):
 File "<stdin>", line 2, i # Arquivo "<stdin>", linha 2, i
 n <module> # módulo
 keyboardInterrupt # interrupção do teclado
->>> n = 1
+>>> n = 1 # variável recebe 1
 >>> while n < 3: # enquanto
 ... print(n)  # impressão     
-... n = n + 1 
+... n = n + 1 # variável recebe 1 + n
 1
 2
 >>>
