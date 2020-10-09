@@ -7,6 +7,7 @@
 # importando os módulos do chatbot
 from chatterbot import ChatBot
 import os
+from datetime import datetime
 import speech_reconition as sr
 import pyttsx3
 speaker=pyttsx3.init()
