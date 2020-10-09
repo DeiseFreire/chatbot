@@ -20,14 +20,6 @@ voices=speaker.getProperty('voices')
 for voice in voices:
 if voice.name=='brazil':
 speaker.setProperty('voice',voice.id)
-'''
-bot = ChatBot('Jarvis', read_only=True)
-bot = ChatBot('Jarvis', read_only=True)
-bot.set_trainer(ListTrainer)  # definir treinamento
-for _file in os.listdir('chats'):  # percorrer todos os arquivos em chats
-lines = open('chats/' + _file, 'r').readlines()  # vamos ler linhas
-bot.train(lines)
-'''
 def speak(text):
 speaker.say(text)
 speaker.runAndWait()
@@ -63,25 +55,3 @@ response=bot.get_response(speech)
 print('Bot: ',response)
 speak(response)
 print('Tipo de comando: ',evaluate(speech))
-"""
-from pocketsphinx import LiveSpeech 
-speech = LiveSpeech(
-verbose=False,
-sampling_rate=16000,
-buffer_size=2048,
-no_search=False,
-full_utt=True,
-hmm='model',
-lm='model.lm.bin',
-dic='model.dic')
-for phrase in speech:
-response=bot.get_response(phrase)
-print('Você disse: ',phrase) 
-response=bot.get_response(speech)
-print('Bot: ', response)
-speak(response)
-except:
-print('Algum erro ocorreu.')"""
-
-
-
