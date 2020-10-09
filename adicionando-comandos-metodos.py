@@ -4,6 +4,9 @@
 # https://www.youtube.com/watch?v=lbvshOmPzYA&list=PL39zyvnHdXh9M1Nk9XXmhKOzP0o9_9Eba&index=7
 # --------------------------------------------------------------------------------------------
 
+# importando os módulos do chatbot
+from chatterbot import ChatBot
+import os
 import speech_reconition as sr
 import pyttsx3
 speaker=pyttsx3.init()
@@ -30,5 +33,13 @@ result=dict_cmds[text] # assina o result = tipo de comando
 except:
 result=None
 return result
+def run_cmd(cmd_type):
+  result=None
 setVoice() # setar a voz
-load_cmds() # carregar comandos
+load_cmds() # carregar comandos 
+for k,v in dict_cmds.items():
+print(k, '=====>', v)
+from pocketsphinx import pocketsphinx, Jsgf, FsgModel
+# create decoder object
+config=pocketsphinx.Decoder.default_config()
+config.set_string("hmm",'model') # set the path of the hidden Markov model (HMM) parameter files
