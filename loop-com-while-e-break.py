@@ -19,7 +19,8 @@ resposta = input ('>: ') # entrada
 if resposta == 'tchau': # e se ou se
 break # parar a execução 
 else: # outro
-print('Digite outra coisa') # impressão  
+print('Digite outra coisa') # impressão
+print('Tchau tchau')
 Traceback (most recent call last): # Rastrear de volta (última chamada mais recente):
 File "<stdin>", line 2, i # Arquivo "<stdin>", linha 2, i
 n <module> # módulo
@@ -31,3 +32,4 @@ keyboardInterrupt # interrupção do teclado
 1
 2
 >>>
+      
