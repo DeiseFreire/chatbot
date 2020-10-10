@@ -26,7 +26,21 @@ E quando a gente determina as tarefas a gente determina como se fosse uma especi
 
 Vamos supor que você é uma empresa de pizzaria e você é uma franqueada de pizzaria, você pode ter um ChatBot para falar sobre a sua marca que é a franqueadora e você pode ter um ChatBot para fazer delivery não tem problema só que esses dois conceitos não podem está misturados no mesmo ChatBot por quê? Porque isso traz uma cofusão para o cliente que vai está interagindo com o ChatBot. O ideal é que você vá dominando o posicionamento, por exemplo, você constrói, você foca o seu planejamento em construir um ChatBot para resolver o problema inicial que você acha que é o mais importante para o negócio que é atender delivery. 
 
-Foca no delivery e vai entregar. Coloca no seu a fazer uma próxima etapa que é planejar um outro ChatBot que é voltado para explicar o negócio da empresa para o cliente. Pensa em ChatBots diferentes com posicionamentos diferentes até para que o cliente consiga falar com um atendente especializado mesmo. Pensa que o seu ChatBot é um atendente especializado se você treina o seu ChatBot para atender delivery e atender perguntas institucionais sobre a sua empresa você tem um atendente que é faz tudo e isso pode trazer para ele diversos problemas e diversas confusões para o  cliente que não vão ajudar.              
+Foca no delivery e vai entregar. Coloca no seu a fazer uma próxima etapa que é planejar um outro ChatBot que é voltado para explicar o negócio da empresa para o cliente. Pensa em ChatBots diferentes com posicionamentos diferentes até para que o cliente consiga falar com um atendente especializado mesmo. Pensa que o seu ChatBot é um atendente especializado se você treina o seu ChatBot para atender delivery e atender perguntas institucionais sobre a sua empresa você tem um atendente que é faz tudo e isso pode trazer para ele diversos problemas e diversas confusões para o  cliente que não vão ajudar.     
+
+Às vezes a gente pensa assim: Ah, vou fazer um ChatBot que faz tudo e ele vai resolver, não. É como se fosse uma pessoa todo mundo tem limitação, tudo tem limitação e quanto mais específico você for, quanto mais claro for o posicionamento do seu ChatBot melhor vai ser para você para o seu cliente e para o seu negócio. 
+
+O segundo fundamento seria determinar o objetivo. Qual foi o objetivo do seu ChatBot para o seu negócio, pensa nisso. O quê que você quer inserindo ele no seu negócio? Você quer reduzir o número de mensagem que você precisa ficar respondendo diariamente? Você quer aumentar o número de vendas? Você quer conduzir a venda, por exemplo, delivery? Você quer dar suporte aos seus clientes? Você tem que ter isso esse objetivo tem que está bem claro na sua cabeça quando você está criando o seu ChatBot, porquê? 
+
+Porque esse objetivo vai determinar quais treinamentos, quais fluxos de conversa você vai criar para o seu ChatBot se você está pensando em reduzir o número de mensagens que você precisa ficar respondendo o quê que você vai fazer você, pode pegar na sua rede social. Por exemplo, vamos supor que você recebe muitas mensagens no facebook. 
+
+Você vai pegar o seu facebook ou então OLX, por exemplo, você vai pegar o facebook da OLX você vai ver nas suas mensagens diretas quais perguntas tem mais recorrência views sobre quais assuntos. 
+
+Você vê quais são os assuntos, agrupa eles e começa e pega aqueles grupos que são mais são frequentes e treina eles no seu ChatBot, fazendo isso, você consegue reduzir o número de mensagens que você precisa ficar respondendo aí você pega na OLX e vê uma pergunta que aparece de vez em quando não trabalhe com essas perguntas coloca ela na sua lista de a fazer, sim. 
+
+Porque em algum momento pode ser que a demanda para responder sobre ela aumente, às vezes, como nesse momento é pouca você vai colocar em a fazer, mas vai deixar como prioridade baixa. Se você tiver um tempinho durante o desenvolvimento você vai e faz, mas por enquanto foca sempre nas perguntas que vão reduzir o número de mensagens que vão chegar até você, aumentar o número de vendas. 
+
+Vamos supor você quer que um ChatBot contribua para o seu faturamento o quê que você vai fazer?
 
               
 
