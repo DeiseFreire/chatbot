@@ -46,7 +46,12 @@ Vamos supor que você quer que um ChatBot contribua para o seu faturamento, o qu
 
 Só três ou quatro perguntas simples, que poderiam estar dentro de um ChatBot e essa pessoa que gastou ali eu estou falando sério gastamos ali uns 15 minutinhos, essa pessoa que gastou 15 minutinhos perguntando e interagindo poderia está trabalhando, por exemplo, em outra parte do negócio. 
 
-Poderia está por exemplo trabalhando no marketing da pizzaria, trazendo mais clientes dá para inserir um ChatBot com esse objetivo de atender o delivery, por exemplo, tem um outro exemplo aqui também que é: Dar suporte para os clientes o quê que é interessante. Nesse ponto aqui você pode construir um ChatBot que você consiga trabalhar no produto gerenciá-lo e ter um tipo de atendimento 
+Poderia está, por exemplo, trabalhando no marketing da pizzaria, trazendo mais clientes. Dá para inserir um ChatBot com esse objetivo de atender o delivery tem um outro exemplo aqui também que é: Dar suporte para os clientes o quê que é interessante. Nesse ponto aqui você pode construir um ChatBot que você consiga trabalhar no produto, gerenciá-lo e ter um tipo de atendimento.
+
+Que pode ser assessorado por um ChatBot quando eu falo de assessorado por um ChatBot eu digo pode está na linha de frente com os clientes recebendo mensagens dos clientes e interagindo com eles tentando resolver os problemas dos clientes e diminuindo a quantidade de dúvidas e segregando e afunilando quais são as dúvidas que realmente precisam de uma demanda humana para que um atendente pessoa física vá lá e interaja com o cliente resolva um problema mais específico do cliente que não seja um problema geral.
+
+Então sim o seu ChatBot pode dar suporte no atendimento ao cliente também, mas para tudo isso você precisa definir bem claramente qual seria esse objetivo dentro do seu negócio. O terceiro fundamento é o tom e personalidade esse quesito tom e personalidade é basicamente como que você quer que o seu cliente seja tratado quando você é dono do seu negócio você tem uma ideia da melhor forma que o seu cliente deve ser tratado você tem que definir isso até para o seu ChatBot              
+
 
 
               
