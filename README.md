@@ -40,7 +40,14 @@ Você vê quais são os assuntos, agrupa eles e começa e pega aqueles grupos qu
 
 Porque em algum momento pode ser que a demanda para responder sobre ela aumente, às vezes, como nesse momento é pouca você vai colocar em a fazer, mas vai deixar como prioridade baixa. Se você tiver um tempinho durante o desenvolvimento você vai e faz, mas por enquanto foca sempre nas perguntas que vão reduzir o número de mensagens que vão chegar até você, aumentar o número de vendas. 
 
-Vamos supor você quer que um ChatBot contribua para o seu faturamento o quê que você vai fazer?
+Vamos supor que você quer que um ChatBot contribua para o seu faturamento, o quê que você vai fazer? você pode fazer um ChatBot que interaja com o cliente, de forma que, ao cliente perguntar sobre um produto. Você além de falar sobre ele você mostra, por exemplo, os produtos similares. 
+
+É possível fazer isso outra coisa que é possível de fazer também é inserir com o ChatBot no seu delivery. O delivery, por exemplo, recentemente eu fiz um pedido em uma pizzaria esse pedido na pizzaria foi pelo WhatsApp e foi bem básico, foi bem simples, foi entrar em contato com eles, falar que queria fazer um pedido, e tem uma série de peguntas que o atendente fez: Qual pedido você quer fazer? Qual o endereço da entrega? forma de pagamento e o atendente falava qual o valor que todo o pedido e pronto finalizado. 
+
+Só três ou quatro perguntas simples, que poderiam estar dentro de um ChatBot e essa pessoa que gastou ali eu estou falando sério gastamos ali uns 15 minutinhos, essa pessoa que gastou 15 minutinhos perguntando e interagindo poderia está trabalhando, por exemplo, em outra parte do negócio. 
+
+Poderia está por exemplo trabalhando no marketing da pizzaria, trazendo mais clientes dá para inserir um ChatBot com esse objetivo de atender o delivery, por exemplo, tem um outro exemplo aqui também que é: Dar suporte para os clientes o quê que é interessante. Nesse ponto aqui você pode construir um ChatBot que você consiga trabalhar no produto gerenciá-lo e ter um tipo de atendimento 
+
 
               
 
