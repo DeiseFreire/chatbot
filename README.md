@@ -50,7 +50,27 @@ Poderia está, por exemplo, trabalhando no marketing da pizzaria, trazendo mais 
 
 Que pode ser assessorado por um ChatBot quando eu falo de assessorado por um ChatBot eu digo pode está na linha de frente com os clientes recebendo mensagens dos clientes e interagindo com eles tentando resolver os problemas dos clientes e diminuindo a quantidade de dúvidas e segregando e afunilando quais são as dúvidas que realmente precisam de uma demanda humana para que um atendente pessoa física vá lá e interaja com o cliente resolva um problema mais específico do cliente que não seja um problema geral.
 
-Então sim o seu ChatBot pode dar suporte no atendimento ao cliente também, mas para tudo isso você precisa definir bem claramente qual seria esse objetivo dentro do seu negócio. O terceiro fundamento é o tom e personalidade esse quesito tom e personalidade é basicamente como que você quer que o seu cliente seja tratado quando você é dono do seu negócio você tem uma ideia da melhor forma que o seu cliente deve ser tratado você tem que definir isso até para o seu ChatBot              
+Então sim o seu ChatBot pode dar suporte no atendimento ao cliente também, mas para tudo isso você precisa definir bem claramente qual seria esse objetivo dentro do seu negócio. O terceiro fundamento é o tom e personalidade esse quesito tom e personalidade é basicamente como que você quer que o seu cliente seja tratado quando você é dono do seu negócio você tem uma ideia da melhor forma que o seu cliente deve ser tratado você tem que definir isso até para o seu ChatBot
+
+Porque o seu ChatBot muitas das vezes é visto como um atendente mesmo. Ele não é diferenciado assim ocorre muito quando a gente vai ver nas conversas que os clientes que entram em contato e conversam com o ChatBot, às vezes, nem sabem o que é um ChatBot eles tem a impressão que é uma pessoa e isso é excelente.
+
+Porque é uma pessoa que vai atender o cliente com rapidez padronização e com o tom que você escolher. Você quer que sempre o seu ChatBot ele fale de forma formal, você quer que sempre o seu chatbot fale de forma amigável. Determine isso e coloque no seu ChatBot de ponta a ponta isso é importante ser definido.
+
+Todas essas etapas do planejamento são importantes serem definidos porque elas vem para padrozinar todo o desenvolvimento de ChatBot vamos supor que daqui a três meses o seu ChatBot já está entregando o resultado e você pega e abandona. Você não está trabalhando nele ou a pessoa que estava trabalhando nele passa essa tarefa para outra pessoa. 
+
+Essa outra pessoa ela não pode chegar daí para a frente e fazer um treinamento de outra forma ela não pode pegar o ChatBot que começou a falar formal e depois daqueles três meses que mudou a pessoa que estava treinando muda completamente as respostas. Os clientes tem a impressão, vêem claramente que é outra pessoa respondendo as perguntas deles.
+
+Então determinar o objetivo, o posicionamento, o tom e a personalidade trazem um atendimento padronizado em todas as perguntas que vão sendo criadas através do tempo. Tem vantagens e desvantagens de você determinar que um ChatBot é mais formal ou mais amigável? Tem, o importante é quando você é dono do seu negócio você já sabe a melhor forma de atender o seu cliente o importante é pegar escolher uma forma de se comunicar e colocar no ChatBot e validar, e verificar.
+
+Assim, se você já sabe. Escolha a forma que melhor atende. Se você não sabe ainda valide. Por experiência própria ChatBots mais amigáveis fazem clientes mais satisfeitos, mas nada impede que você crie respostas mais formais o importante é resolver o problema do cliente seja qual o tom você usar.
+
+Eu criei algumas consequenciasinhas de você fundamentar o seu ChatBot nesses três pontos que eu falei são duas 'Fecha o escopo e fica bem definido' quanto mais específico o seu escopo mais mais clientes satisfeitos. O que eu tenho visto é o seguinte: Quanto mais específico o ChatBot que você desenvolve mais qualidade você trás para ele.
+
+Então se você fez um treinamento de uma série de perguntas, de uma série de especialidades e você trabalha com aquela especialidade mais resultado, mais qualidade para responder aquelas perguntas você vai trás.
+
+A gente tem que pensar no seguinte sempre quando a gente fala de fechar o escopo eu acho que é o melhor caminho porque a gente nunca quer que o nosso atendente seja, o sabe tudo, que sabe sobre todas especialidades. Porque é a mesma coisa de saber um pouco sobre muito, mas não saber muito sobre algo específico.
+
+Sabe a ideia do ChatBot tem que ser sempre muito. Saber muito sobre uma especialidade em específico então no caso aqui eu acredito que determinar o posicionamento, objetivo e o tom vai trazer isso. Vai fechar o seu escopo para que na hora de escolher quais perguntas você vai treinar no seu ChatBot, você consiga falar assim: Não... Essa pergunta aqui eu não vou treinar no ChatBot para resolver
 
 
 
