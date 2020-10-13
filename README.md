@@ -70,9 +70,15 @@ Então se você fez um treinamento de uma série de perguntas, de uma série de 
 
 A gente tem que pensar no seguinte sempre quando a gente fala de fechar o escopo eu acho que é o melhor caminho porque a gente nunca quer que o nosso atendente seja, o sabe tudo, que sabe sobre todas especialidades. Porque é a mesma coisa de saber um pouco sobre muito, mas não saber muito sobre algo específico.
 
-Sabe a ideia do ChatBot tem que ser sempre muito. Saber muito sobre uma especialidade em específico então no caso aqui eu acredito que determinar o posicionamento, objetivo e o tom vai trazer isso. Vai fechar o seu escopo para que na hora de escolher quais perguntas você vai treinar no seu ChatBot, você consiga falar assim: Não... Essa pergunta aqui eu não vou treinar no ChatBot para resolver
+Sabe a ideia do ChatBot tem que ser sempre muito. Saber muito sobre uma especialidade em específico então no caso aqui eu acredito que determinar o posicionamento, objetivo e o tom vai trazer isso. Vai fechar o seu escopo para que na hora de escolher quais perguntas você vai treinar no seu ChatBot, você consiga falar assim: Não... Essa pergunta aqui eu não vou treinar no ChatBot para resolver, porque eu não estou tratando de um ChatBot institucional, eu não estou tratando de um ChatBot que aumenta o número de vendas, ou então, eu não estou tratando o meu ChatBot como um ChatBot que dá suporte para o cliente. 
 
+É outra consequência determinar todo o processo e desenvolvimento do ChatBot. Você consegue dar um guia para todas as etapas de desenvolvimento do ChatBot na manutenção quando você corrigir uma resposta que não está da melhor forma possível, você vai pegar e pensar: Eu vou corrigir essa resposta. Você vai escrever um texto você vai ler e vai falar assim: Nossa eu estou usando gíria aqui, nossa eu estou sendo amigável demais no meu ChatBot. Ele tem um tom formal deixa eu corrigir.
+
+Se você não tem isso bem determinado uma hora o seu cliente está interagindo com alguém amigável, outra hora ele está interagindo com alguém formal parece que o seu ChatBot tem sentimentos tem dia que ele está feliz e tem dia que ele está mais sério. Isso não é interessante então seguir esses três fundamentos vão ser muito benéficas para o seu ChatBot. 
+
+Entrando agora no pilar de desenvolvimento lembra o grupo de fundamentos que estão dentro do pilar de desenvolvimento o quê que a gente tem qe evitar é o sim e o não aqui eu já entro em questões até um pouco mais técnicas: de ah, vamos colocar a mão na massa e o quê que a gente precisa pensar na hora do desenvolvimento. O primeiro ponto, evitar sim ou não como resposta aqui é prático mesmo por exemplo você treina a seguinte pergunta: "A entrega é gratuita?" e você vai e responde: "É sim!" é sim respondeu, é sim resolveu o problema do cliente, é sim entregou a resposta que o cliente queria receber. 
+
+É sim, pronto acabou só que acontece que se o cliente chegar para você e você terminou essa pergunta "A entrega é gratuita?" se o cliente chegar para você e falar assim a entrega é gratuita ou eu tenho que pagar?" você responde: É sim. O seu cliente vai ficar assim: Espera aí é sim é o quê "A entrega gratuita ou eu tenho que pagar?" não faz sentido. O seu cliente tem a percepção que o seu ChatBot não entendeu nada então ele fica com dúvidas sobre o que foi respondido ali.
 
 
               
-
