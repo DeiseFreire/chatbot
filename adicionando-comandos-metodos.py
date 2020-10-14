@@ -37,11 +37,11 @@ def run_cmd(cmd_type):
 result=None
 if cmd_type == 'asktime':
 now=datetime.now()
-result='São' + now.hour + 'horas e' + now.minute + 'minutos.'
-result='São' + now.hour + 'horas e' + now.minute + 'minutos.'
+result='São ' + str(now.hour) + ' horas e '+str(now.minute) +' minutos. '
 elif cmd_type=='askdate':
 now=datetime.now()
-result='Hoje é' + now.day + 'de' + now.month
+months = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+result='Hoje é' + str(now.day) + ' de ' + month s[now.month-1]  
 else
 result = None  
 return result
@@ -59,7 +59,7 @@ config.set_string("-logfn",os.devnull) # disable logging (logging causes unwante
 decoder=pocketsphinx.Decoder(config)
 def recognize_pt(audio):
 raw_data=audio.get_raw_data(convert_rate=16000,convert_width=2)
-decoder.star_utt() # begin utterance processing
+decoder.start_utt() # begin utterance processing
 decoder.process_raw(raw_data,False,True) # process audio data width recognition enabled (no_search=False), as a full utterance (full_utt=True)
 decoder.end_utt() #stop utterance processing
 hypothesis=decoder.hyp()
@@ -71,9 +71,10 @@ import traceback
 with sr.Microphone() as s:
 r.adjust_for_ambient_noise(s)
 while True:
-try:
 audio=r.listen(s)
 speech=recognize_pt(audio) # usando o pocketsphinx
+response=run_cmd(evaluate(speech))
+if response==None:
 print('Você disse: ',speech)
 response=bot.get_response(speech)
 print('Bot: ',response)
