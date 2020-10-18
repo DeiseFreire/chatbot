@@ -1,4 +1,4 @@
-# NOTA TAQUIGRÁFICA
+# NOTA TAQUIGRÁFICA:
 # 11 FUNDAMENTOS QUE TODO CHATBOT DEVE TER | Aula #007 - Vitor Moura
 # https://www.youtube.com/watch?v=5Dma8Cd4daQ
 # ChatBots
