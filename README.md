@@ -1,7 +1,7 @@
 # NOTA TAQUIGRÁFICA:
 # 11 FUNDAMENTOS QUE TODO CHATBOT DEVE TER | Aula #007 - Vitor Moura
 # https://www.youtube.com/watch?v=5Dma8Cd4daQ
-# ChatBots
+
 
 Vamos falar sobre os onze fundamentos que todo o ChatBot precisa ter para que ele entregue algum resultado sólido para o seu negócio esses fundamentos eles são extraídos da minha experiência vendo os ChatBots em ação e vendo quais são as características dos ChatBots que mais deram certo e vem entregando resultados foi feita uma coleta das características dos ChatBots. Construí então uma ordenação fiz um agrupamento dos principais fundamentos de um ChatBot por etapas do desenvolvimento do ChatBot para poder escrever. Vou está escrevendo sobre esse agrupamento que basicamente são os três pilares para qualquer software, que são: planejamento, desenvolvimento e manutenção.
 
