@@ -4,6 +4,10 @@
 # https://www.youtube.com/watch?v=z0qEv6Rt1p8&list=PL39zyvnHdXh9M1Nk9XXmhKOzP0o9_9Eba&index=8
 # -------------------------------------------------------------------------------------------
 
+# -*- coding: utf-8 -*-
+# importando os módulos do chatbot
+from chatterbot import ChatBot
+import speech_recognition as sr
 import pyttsx3
 speaker=pyttsx3.init()
 bot=ChatBot('Jarvis',read_only=True)
@@ -68,7 +72,8 @@ with sr.Microphone() as s:
 r.adjust_for_ambient_noise(s)
 while True:
 audio=r.listen(s)
-speech=recognize_pt(audio) #usando o pocketsphinx
+# speech=recognize_pt(audio) #usando o pocketsphinx
+speech=r.recognize_google(audio,language='pt').lower()
 response=run_cmd(evaluate(speech))
 if response==None:
 print('Voce disse: ',speech)
