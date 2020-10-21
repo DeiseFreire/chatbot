@@ -79,5 +79,4 @@ if response==None:
 print('Voce disse: ',speech)
 print('Bot: ',response)
 speak(response)
-r=sr.Recognizer()
-import traceback
+
