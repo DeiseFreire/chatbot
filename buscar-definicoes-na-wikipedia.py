@@ -74,7 +74,7 @@ import tracback
 with sr.Microphone() as s:
 r.adjust_for_ambient_noise(s)
 while True:
-audi = r.listen(s)
+audio = r.listen(s)
 #speech = recognize_pt(audio) # usando o pocketsphinx
 speech = r.recognize_google(audio,language'pt').lower()
 response = run_cmd(evaluate(speech))
