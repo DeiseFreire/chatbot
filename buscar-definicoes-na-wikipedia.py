@@ -4,7 +4,7 @@
 # https://www.youtube.com/watch?v=mdSdD3gre7E&list=PL39zyvnHdXh9M1Nk9XXmhKOzP0o9_9Eba&index=9
 # ------------------------------------------------------------------------------------------
 
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 # importando os módulos do chatbot
 from chatterbot import ChatBot
 import os 
@@ -37,6 +37,9 @@ result = dict_cmds[text] # assina o result = tipo de comando
 except:
 result = None
 return result
+def get_answer(text):
+setVoice() # setar a voz
+load_cmds() # carregar comandos 
 def run_cmd(cmd_type):
 result = None
 if cmd_type == 'asktime':
