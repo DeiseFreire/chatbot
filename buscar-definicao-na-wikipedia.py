@@ -17,13 +17,14 @@ import wikipedia.set_lang
 ('pt')  # definir o pt como língua
 speaker = pyttsx3.init()
 bot = ChatBot( 'Jarvis', read_only=True )
+keywords = ['o que é', 'quem é', 'quem foi', 'definição', 'defina']
 dict_cmds = {}
 
 
 def load_cmds():
-
-
     lines = open( 'cmds.txt', 'r' ).readlines()
+
+
 for line in lines:
     line = line.replace( '\n', '' )
 parts = line.split( '\t' )
@@ -31,43 +32,46 @@ dict_cmds.update( {parts[0]: parts[1]} )
 
 
 def setVoice():
-
-
     voices = speaker.getProperty( 'voices' )
+
+
 for voice in voices:
     if voice.name == 'brazil':
-    speaker.setProperty( 'voice', voice.id )
+        speaker.setProperty( 'voice', voice.id )
 
 
 def speak(text):
-
-
     speaker.say( text )
+
+
 speaker.runAndWait()
 
 
-def evaluate(text):  # passar o comando valor 
-
+def evaluate(text):  # passar o comando valor
 
     result = None
+
+
 try:
-    result = dict_cmds[text]  # assina o result = tipo de comando 
+    result = dict_cmds[text]  # assina o result = tipo de comando
 except:
-result = None
+    result = None
 return result
 
 
 def get_answer(text):
+    result = None
 
 
-    setVoice()  # setar a voz
-load_cmds()  # carregar comandos 
+results = wikipedia.search(‘
+setVoice()  # setar a voz
+load_cmds()  # carregar comandos
 
 
 def run_cmd(cmd_type):
-
-
     result = None
+
+
 if cmd_type == 'asktime':
     now = datetime.now()
 result = 'São ' + str( now.hour ) + ' horas e ' + str( now.minute ) + ' minutos.'
@@ -82,10 +86,10 @@ return result
 
 
 def get_answer(text):
-
-
     setVoice()  # setar a voz
-loads_cmds()  # carregar comandos 
+
+
+loads_cmds()  # carregar comandos
 from pocketsphinx import pocketsphinx, Jsgf, FsgModel
 
 # create decoder object
@@ -98,10 +102,10 @@ decoder = pocketsphinx.Decoder( config )
 
 
 def recognize_pt(audio):
-
-
     raw_data = audio.get_raw_data( convert_rate=16000, convert_width=2 )
-decoder.start_utt()  # begin utterance processing 
+
+
+decoder.start_utt()  # begin utterance processing
 decoder.process_raw( raw_data, False,
                      True )  # process audio data with recognition enabled (no_search = False), as a full utterance (full_utt = true)
 decoder.end_utt()  # stop utterance processing
