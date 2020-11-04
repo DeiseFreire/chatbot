@@ -4,6 +4,8 @@
 # https://www.youtube.com/watch?v=mdSdD3gre7E&list=PL39zyvnHdXh9M1Nk9XXmhKOzP0o9_9Eba&index=9
 # ------------------------------------------------------------------------------------------
 
+[SCRIPT]  # 9 COMO CRIAR O SEU ASSISTENTE VIRTUAL EM PYTHON - BUSCAR DEFINIÇÃO NA WIKIPÉDIA
+
 # -*- coding: utf-8 -*-
 # importando os módulos do chatbot
 from chatterbot import ChatBot
@@ -22,9 +24,9 @@ dict_cmds = {}
 
 
 def load_cmds():
+
+
     lines = open( 'cmds.txt', 'r' ).readlines()
-
-
 for line in lines:
     line = line.replace( '\n', '' )
 parts = line.split( '\t' )
@@ -32,46 +34,50 @@ dict_cmds.update( {parts[0]: parts[1]} )
 
 
 def setVoice():
+
+
     voices = speaker.getProperty( 'voices' )
-
-
 for voice in voices:
     if voice.name == 'brazil':
-        speaker.setProperty( 'voice', voice.id )
+    speaker.setProperty( 'voice', voice.id )
 
 
 def speak(text):
+
+
     speaker.say( text )
-
-
 speaker.runAndWait()
 
 
-def evaluate(text):  # passar o comando valor
+def evaluate(text):  # passar o comando valor 
+
 
     result = None
-
-
 try:
-    result = dict_cmds[text]  # assina o result = tipo de comando
+    result = dict_cmds[text]  # assina o result = tipo de comando 
 except:
-    result = None
+result = None
 return result
 
 
 def get_answer(text):
+
+
     result = None
-
-
-results = wikipedia.search(‘
+results = None
+for key in keywords:
+    if text.startswith( key )
+    result = text.replace( key, '' )
+if result is not None:
+    results = wikipedia.search( result )
 setVoice()  # setar a voz
-load_cmds()  # carregar comandos
+load_cmds()  # carregar comandos 
 
 
 def run_cmd(cmd_type):
+
+
     result = None
-
-
 if cmd_type == 'asktime':
     now = datetime.now()
 result = 'São ' + str( now.hour ) + ' horas e ' + str( now.minute ) + ' minutos.'
@@ -86,10 +92,10 @@ return result
 
 
 def get_answer(text):
+
+
     setVoice()  # setar a voz
-
-
-loads_cmds()  # carregar comandos
+loads_cmds()  # carregar comandos 
 from pocketsphinx import pocketsphinx, Jsgf, FsgModel
 
 # create decoder object
@@ -102,10 +108,10 @@ decoder = pocketsphinx.Decoder( config )
 
 
 def recognize_pt(audio):
+
+
     raw_data = audio.get_raw_data( convert_rate=16000, convert_width=2 )
-
-
-decoder.start_utt()  # begin utterance processing
+decoder.start_utt()  # begin utterance processing 
 decoder.process_raw( raw_data, False,
                      True )  # process audio data with recognition enabled (no_search = False), as a full utterance (full_utt = true)
 decoder.end_utt()  # stop utterance processing
