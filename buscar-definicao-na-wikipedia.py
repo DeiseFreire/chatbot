@@ -4,8 +4,6 @@
 # https://www.youtube.com/watch?v=mdSdD3gre7E&list=PL39zyvnHdXh9M1Nk9XXmhKOzP0o9_9Eba&index=9
 # ------------------------------------------------------------------------------------------
 
-[SCRIPT]  # 9 COMO CRIAR O SEU ASSISTENTE VIRTUAL EM PYTHON - BUSCAR DEFINIÇÃO NA WIKIPÉDIA
-
 # -*- coding: utf-8 -*-
 # importando os módulos do chatbot
 from chatterbot import ChatBot
@@ -64,12 +62,17 @@ def get_answer(text):
 
 
     result = None
-results = None
+results = None  # resultados
 for key in keywords:
     if text.startswith( key )
     result = text.replace( key, '' )
 if result is not None:
     results = wikipedia.search( result )
+if result is None:
+    continue
+else:
+result = wikipedia.summary( results[0], sentences=2 )
+return result
 setVoice()  # setar a voz
 load_cmds()  # carregar comandos 
 
