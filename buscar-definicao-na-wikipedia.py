@@ -68,10 +68,6 @@ for key in keywords:
     result = text.replace( key, '' )
 if result is not None:
     results = wikipedia.summary( wikipedia.search( result )[0], sentences=2 )
-if result is None:
-    continue
-else:
-result = wikipedia.summary( results[0], sentences=2 )
 return result
 setVoice()  # setar a voz
 load_cmds()  # carregar comandos 
