@@ -67,7 +67,7 @@ for key in keywords:
     if text.startswith( key )
     result = text.replace( key, '' )
 if result is not None:
-    results = wikipedia.search( result )
+    results = wikipedia.summary( wikipedia.search( result )[0], sentences=2 )
 if result is None:
     continue
 else:
