@@ -70,7 +70,18 @@ if result is not None:
     results = wikipedia.summary( wikipedia.search( result )[0], sentences=2 )
 return result
 setVoice()  # setar a voz
-load_cmds()  # carregar comandos 
+load_cmds()  # carregar comandos
+for k, v in dict_cmds.items()
+    print( k, ' =====> ', v )
+from pocketsphinx import pocketsphinx, Jsgf, FsgModel
+
+# create decoder object
+config = pocketsphinx.Decoder.default_config()
+config.set_string( "-hmm", 'model' )  # set the path of the hidden Markov model (HMM) parameter files
+config.set_string( "-lm", 'model.lm.bin' )
+config.set_string( "-dict", 'model.dic' )
+config.set_string( "-logfn", os.devnull )  # disable logging (logging causes unwanted output in terminal)
+decoder = pocketsphinx.Decoder( config )
 
 
 def run_cmd(cmd_type):
