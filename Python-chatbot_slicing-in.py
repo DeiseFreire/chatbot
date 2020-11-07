@@ -4,12 +4,6 @@
 # https://www.youtube.com/watch?v=OVH-mCsP080&list=PLsMpSZTgkF5Bdh7-o3VnbpRpahOeDJONh&index=4
 # -------------------------------------------------------------------------------------------
 
-# -------------------------------------------------------------------------------------------
-# Fonte da ideia: 
-# Aula 4 - Python chatbot - slicing in
-# https://www.youtube.com/watch?v=OVH-mCsP080&list=PLsMpSZTgkF5Bdh7-o3VnbpRpahOeDJONh&index=4
-# -------------------------------------------------------------------------------------------
-
 '''
 [w1lls@Matrix ~] $ vim chatbot.py
 [w1lls@Matrix ~] $ python chatbot.py
